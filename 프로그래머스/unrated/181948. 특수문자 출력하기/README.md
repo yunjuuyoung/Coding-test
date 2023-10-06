@@ -1,10 +1,10 @@
 # [unrated] 특수문자 출력하기 - 181948 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181948) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181948?language=c) 
 
 ### 성능 요약
 
-메모리: 65.5 MB, 시간: 156.50 ms
+메모리: 4.01 MB, 시간: 1.65 ms
 
 ### 구분
 
