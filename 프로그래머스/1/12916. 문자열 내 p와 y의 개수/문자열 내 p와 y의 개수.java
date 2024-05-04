@@ -1,6 +1,5 @@
 class Solution {
     boolean solution(String s) {
-        boolean answer = true;
         int p = 0;
         int y = 0;
         
@@ -13,10 +12,8 @@ class Solution {
                 p++;
             else if (c == 'y')
                 y++;
-            
-            answer = p != y ? false : true;
         }
 
-        return answer;
+        return  p != y ? false : true;
     }
 }
