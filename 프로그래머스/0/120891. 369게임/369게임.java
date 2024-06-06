@@ -1,7 +1,7 @@
 class Solution {
     public int solution(int order) {
         int answer = 0;
-        String s = Integer.toString(order);
+        String s = order + "";
         
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
