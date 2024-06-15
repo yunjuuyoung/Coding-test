@@ -1,17 +1,6 @@
 class Solution {
     public int solution(String myString, String pat) {
-        int answer = 0;
-        String s = "";
-        
-        for (int i = 0; i < myString.length(); i++) {
-            char c = myString.charAt(i);
-            
-            if (c == 'A')
-                s += "B";
-            else
-                s += "A";
-        }
-        
-        return s.contains(pat) ? 1 : 0;
+        myString = myString.replace("A", "a").replace("B", "A").replace("a", "B");
+        return myString.contains(pat) ? 1 : 0;
     }
 }
