@@ -8,6 +8,6 @@ class Solution {
             sum2 += num_list[i];
         }
         
-        return sum1 < sum2 * sum2 ? 1 : 0;
+        return sum1 < Math.pow(sum2, 2) ? 1 : 0;
     }
 }
