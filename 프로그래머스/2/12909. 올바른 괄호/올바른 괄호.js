@@ -1,13 +1,8 @@
 function solution(s){
-    let sum = 0;
+    var answer = true;
 
-    if (s[0] === ")" || s[s.length-1] === "(") return false;
-    
-    for (const str of s) {
-        sum = str === "(" ? sum + 1 : sum - 1;
-        
-        if (sum < 0) return false;
-    }
+    // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
+    console.log('Hello Javascript')
 
-    return sum == 0 ? true : false;
+    return answer;
 }
