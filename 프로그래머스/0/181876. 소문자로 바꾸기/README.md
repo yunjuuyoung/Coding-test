@@ -1,10 +1,10 @@
 # [level 0] 소문자로 바꾸기 - 181876 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181876) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181876?language=javascript) 
 
 ### 성능 요약
 
-메모리: 71.9 MB, 시간: 0.03 ms
+메모리: 33.5 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 06월 15일 22:38:00
+2025년 04월 27일 20:32:41
 
 ### 문제 설명
 
